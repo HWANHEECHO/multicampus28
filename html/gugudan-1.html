@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8"
+        <title>멀티캠퍼스 웹개발 수업</title>
+    </head>
+    <body>
+        <h1>구구단 2~9단까지 출력 (for loop)</h1>
+        <script>
+            var i = 2;
+            var j = 1;
+
+            for(i = 2; i < 10; i++){
+                document.write("<br>")
+                for(j = 1; j < 10; j++){
+                    var num = i * j;
+                    document.write(i + "x" + j + "=" + num)
+                document.write("<br>")
+                }
+            }
+        </script>
+    </body>
+</html>
